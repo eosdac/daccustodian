@@ -1,0 +1,29 @@
+{
+  "name": "daccustodian",
+  "version": "1.0.0",
+  "description": "tests for daccustodian",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "eosjs": "^15.0.3"
+  },
+  "scripts": {
+    "test": "mocha './tests/*spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eosdac/daccustodian.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eosdac/daccustodian/issues"
+  },
+  "homepage": "https://github.com/eosdac/daccustodian#readme"
+}
